@@ -1,0 +1,96 @@
+
+
+.first__section{
+    background-color:#06396C;
+    overflow: hidden;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first__section__content{
+    display: flex;
+    flex-direction: row;
+    transform: translate(20px,0);
+}
+.first__section__left{
+    width: 100%;
+    height: fit-content;
+    margin: 200px;
+}
+.first__section__right{
+    width: fit-content;
+    height: fit-content;
+}
+.first__section__header{
+    font-family: "Roboto-Bold";
+    font-size: 72px;
+    color: #FFFF;
+    overflow: hidden;
+}
+.first__section__altText{
+    font-family: "Roboto-Regular";
+    font-size: 32px;
+    color: #CDCDCD;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.first__section__description{
+    font-family: "Roboto-Regular";
+    font-size: 32px;
+    color: #FFFF;
+    width: auto;
+    overflow: hidden;
+}
+
+
+.video{
+    display: flex;
+    position: relative;
+    background: url("../../assets/img/photoshop.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    box-shadow:  inset 0px 4px 4px 222px rgba(0, 0, 0, 0.5);
+    width: 617px;
+    height: 361px;
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 0.30rem white);
+    filter: inner;
+    transition: filter, transform 300ms ease-in-out;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+.video:hover{
+    filter: none;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.video video{
+    width: 617px;
+    height: 361px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 25px;
+    opacity:0;
+    /* display: none; */
+    animation: opacity, transform 500ms ease-in-out;
+}
+.video video:hover,.play__button:hover{
+    opacity:1;
+    display: block;
+    transform: scale(1);
+    cursor: pointer;
+    z-index: 2000;
+
+}
+
+

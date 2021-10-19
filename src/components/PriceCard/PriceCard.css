@@ -1,0 +1,200 @@
+.price__card__item__personel{
+    background-color: #fff;
+    width: 544px;
+    height: 1125px;
+    border: 1px solid #000;
+    border-radius: 55px;
+    margin: 10px;
+    filter: drop-shadow(0 0 0.30rem #000);
+    overflow: hidden;
+    transition: filter 300ms ease;
+
+}
+
+.price__card__item__personel:hover{
+    filter: none;
+    
+}
+
+.price__topBanner{
+    background-color: rgba(196,196,196,0.5);
+    width: 544px;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 300ms ease;
+}
+
+.price__card__item__personel:hover .price__topBanner {
+    background-color: #5BDB94;   
+}
+.price__card__item__multi{
+    background-color: #fff;
+    width: 544px;
+    height: 1125px;
+    border: 1px solid #000;
+    border-radius: 55px;
+    margin: 10px;
+    filter: drop-shadow(0 0 0.30rem #000);
+    overflow: hidden;
+
+}
+
+.price__content__title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price__altTitle{
+    font-size: 34px;
+    font-family: "Roboto-Bold";
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.price__altTitleDesc{
+    font-family: "Roboto-Regular";
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.price__matter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    transition: border-left 300ms ease;
+}
+.price__matter__desc{
+    font-family: "Roboto-Bold";
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.price__matter:hover{
+
+    border-left: #5BDB94 10px solid;
+}
+
+.price__matter__icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #06396C;
+    transition: background-color 300ms ease;
+    margin-left: 10px;
+}
+.price__content__desc:hover .price__matter__icon{
+    background-color: #5BDB94;
+}
+
+.price__personel__offer{
+    display: flex;
+    flex-direction: row;
+}
+
+.price__offer{
+    width:132px;
+    height: 124px;
+    border-radius: 19px;
+    background-color: #5BDB94;
+    margin-left: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price__offer__text{
+    font-family: "Roboto-Bold";
+    font-size: 45px;
+    
+}
+
+.price__personel__month{
+    display: flex;
+}
+
+.price__personel__month__value{
+    display: flex;
+}
+
+
+.price__personel__discount{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: "Roboto-Bold";
+    color: #787878;
+}
+
+.price__personel__discount::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #5BDB94;
+    transition: width .3s;
+    transform: translate(0px,-23px);
+}
+
+
+.price__personel__offer__price{
+    font-size: 64px;
+    font-family: "Roboto-Bold";
+    color:#000;
+    transform: translate(-105px,120px);
+}
+.price__personel__offer__price__currency{
+    font-family: "Roboto-Bold";
+    font-size: 38px;
+    transform: translate(-100px,145px);
+    color:#000;
+}
+.price__personel__offer__price__currency__duration{
+    font-family: "Roboto-Bold";
+    font-size: 38px;
+    transform: translate(-100px,145px);
+    color:#000;
+}
+
+
+
+.price__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 8px #5BDB94 solid;
+    width: 200px;
+    font-size: 36px;
+    font-family: "Roboto-Bold";
+    text-align: center;
+    border-radius: 50px;
+    height: 50px;
+    color:#000;
+    background-color: #fff;
+    transform: translate(170px,50px);
+    transition: background-color 300ms ease;
+}
+.price__card__item__personel:hover .price__button{
+    border: 8px #5BDB94 solid;
+    background-color: #5BDB94;
+
+    
+}
+
+.price__recommended{
+    background-color: #5BDB94;
+    width: 544px;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
